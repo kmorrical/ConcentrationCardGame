@@ -13,7 +13,6 @@ class App extends Component {
 
     this.state = {
       cards: [],
-      working: false,
       cardRow1: [],
       cardRow2: [],
       cardRow3: [],
@@ -21,7 +20,6 @@ class App extends Component {
       card1Selected: '',
       card2Selected: '',
       cardsSelected: [],
-      someCondition : true,
       cardRowsDisplay: [],
       cardClass: 'card-image',
     };
