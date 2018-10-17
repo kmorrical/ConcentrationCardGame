@@ -6,10 +6,6 @@ class Cards extends Component {
     super(props);
     this.myRef = React.createRef();
     this.state = {
-    	cardRow1: this.props.cardRow1,
-    	cardRow2: this.props.cardRow2,
-    	cardRow3: this.props.cardRow3,
-    	cardRow4: this.props.cardRow4,
     	card1Selected: this.props.card1Selected,
     	card2Selected: this.props.card2Selected,
     	cardRowsDisplay: this.props.cardRowsDisplay,
