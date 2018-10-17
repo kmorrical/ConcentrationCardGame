@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//images for suit logos on top. know this was not necessary but wanted to personalize it a bit
 const club = "https://res.cloudinary.com/osidekweenyasss/image/upload/v1539469916/greyclub2.png";
 const spade = "https://res.cloudinary.com/osidekweenyasss/image/upload/v1539469916/greyclub.png";
 const heart = "https://res.cloudinary.com/osidekweenyasss/image/upload/v1539469916/greyheart.png";
@@ -8,7 +9,6 @@ const diamond = "https://res.cloudinary.com/osidekweenyasss/image/upload/v153946
 class Header extends Component {
   constructor(props){
     super(props);
-
     this.state = {
     };
   }
