@@ -13,10 +13,6 @@ class App extends Component {
 
     this.state = {
       cards: [],
-      cardRow1: [],
-      cardRow2: [],
-      cardRow3: [],
-      cardRow4: [],
       card1Selected: '',
       card2Selected: '',
       cardsSelected: [],
