@@ -21,18 +21,14 @@ class App extends Component {
     };
   }
 
-  //don't necessarily need the below lifecycle functions for my app to work, but keeping them to demonstrate I know about them
-  componentWillMount(){
+  //don't necessarily need the below lifecycle functions for this app to work, but keeping them to demonstrate I know about them
+  //componentWillMount(){
 
-  }
+  //}
 
-  componentDidMount(){
+  //componentDidMount(){
 
-  }
-
-  componentWillUpdate(){
-
-  }
+  //}
 
   shuffle = () => {
     this.setState({cardClass: 'card-image'});
@@ -69,6 +65,7 @@ class App extends Component {
   }
 
   fireDirections = () => {
+    //sweet alert for instructions
     swal("Instructions", "Click to flip over a card. Flip over two cards and see if they match. If they do not, they will flip back over. If they do, they will disappear. Play until all cards disappear.", "success");
   }
 
@@ -128,11 +125,7 @@ class App extends Component {
     const gameOver = _.every(this.state.cards, 'matched');
     if (gameOver) {
       //sweet alert
-      swal({
-        title: "Congrats!",
-        text: "YOU MATCHED ALL OF THE CARDS!",
-        icon: 'success',
-      });
+      swal("Congrats!", "You matched all of the cards!", "success");
     }
   }
 
